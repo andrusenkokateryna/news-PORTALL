@@ -1,0 +1,31 @@
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+body{
+	height: 1000px;
+	background-color:pink;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+li{
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+	color: #25020a;
+	font-family: fantasy;
+}
+
+ #rightButton:hover {
+	color: red;
+}
+
+#leftButton:hover {
+	color:orange;
+}
