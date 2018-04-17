@@ -23,9 +23,14 @@ a{
 }
 
  #rightButton:hover {
-	color: blue;
+	color: darkblue;
+	font-size: 35px;
+
+
 }
 
 #leftButton:hover {
 	color:orange;
+	font-size: 35px;
+
 }
