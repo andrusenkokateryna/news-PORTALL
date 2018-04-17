@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(event){
 		var rbutt=document.getElementById('rightButton');
 		var lbutt=document.getElementById('leftButton')
 		var img=document.getElementById('image');
-		var arr =images.reverse();
+		
 		rbutt.addEventListener('click', function(){
 			
 			
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function(event){
 			}
 			img.src=images[i], i++;
 		})
-		
+		var arr =images.reverse();
 		console.log(arr)
 
 		lbutt.addEventListener('click', function(){
