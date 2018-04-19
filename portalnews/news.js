@@ -13,20 +13,22 @@ document.addEventListener('DOMContentLoaded',function(){
     var DIV = document.createElement('div');
     
     let news = JSON.parse(xhr.responseText);
-    console.log(news.articles);
+    console.log(news);
     for( i = 0;i < news.articles.length;i++){
         var img = document.createElement('img');
+		
+		img.src = news.articles[i].urlToImage;
         DIV.appendChild(img);
-        img.src = news.articles[i].urlToImage;
+        
         var title = document.createElement('h1');
         
-        DIV.appendChild(title);
+        
         title.innerHTML+= news.articles[i].title +"</br>";
+        DIV.appendChild(title);
+        var a = document.createElement('a');
         
-        let a = document.createElement('a');
-        DIV.appendChild(a);
         a.innerHTML+= news.articles[i].url +"</br>";
-        
+        DIV.appendChild(a);
         var descript = document.createElement('p');
         
         descript.innerHTML+= news.articles[i].description +"</br>";
@@ -35,7 +37,7 @@ document.addEventListener('DOMContentLoaded',function(){
         publish.innerHTML+= news.articles[i].publish +"</br>";
         var author= document.createElement('h4');
         DIV.appendChild(author);
-        
+        content.appendChild(DIV);
         author.innerHTML+= news.articles[i].author +"</br>";
 
 
