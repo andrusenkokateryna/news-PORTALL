@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function(event){
 		var rbutt=document.getElementById('rightButton');
 		var lbutt=document.getElementById('leftButton')
 		var img=document.getElementById('image');
+		img.style.border='solid 5px #f30a26'
 		
 		rbutt.addEventListener('click', function(){
-			
 			
 			if (images.length<=i){
 				i=0;
