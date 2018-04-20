@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded',function(){
     console.log(news);
     for( i = 0;i < news.articles.length;i++){
         var img = document.createElement('img');
-		
-		img.src = news.articles[i].urlToImage;
+		    img.src = news.articles[i].urlToImage;
         DIV.appendChild(img);
-        
+        img.style.width='400px';
+
         var title = document.createElement('h1');
         
         
