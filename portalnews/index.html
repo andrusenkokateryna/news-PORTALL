@@ -4,10 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+  
   <script src="menu.js"type="text/javascript"></script>
    <script src="slider.js"type="text/javascript"></script>
   <script src="news.js"type="text/javascript"></script>
    <script src="banner.js"type="text/javascript"></script>
+   <script src="comment.js"type="text/javascript"></script>
+     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
@@ -36,8 +44,19 @@
 
   <news>
 <div id="news-content">
-  
 </div>
 </news>
+
+<div id="comments">
+  <!-- <p>Комментарий 1</p>
+  <p>Комментарий 2</p>
+  <p>Комментарий 3</p> -->
+  </div>
+  <form  name="form" action="" method="post" id="form" onsubmit="return false">
+    <textarea name="field" id="textarea" cols="30" rows="10"></textarea><br>
+    <input type="submit" name="send" value="ADD COMMIT" id="done">
+  </form>
+  <a href="#" onclick="return false" id="add-comment" class="link">Добавить комментарий</a>
+
 </body>
 </html>

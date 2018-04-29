@@ -61,3 +61,31 @@ a{
 
 }
 
+#form  {
+	display: none;	
+}
+
+#done {
+	background: #ff0c00;
+	border: 2px solid #ff0c00;
+	border-radius: 4px;
+	padding: 5px 12px;
+	font-family: Lobster;
+	margin-bottom: 50px;
+}
+
+ #comments {
+ 	margin-bottom: 100px;
+ 	font-size: 25px;
+ 	font-family: monospace;
+ }
+
+ #add-comment  {
+ 	padding-bottom: 200px;
+ }
+
+ .link {
+ 	font-family: lobster;
+ 	font-size: 25px;
+
+ }
