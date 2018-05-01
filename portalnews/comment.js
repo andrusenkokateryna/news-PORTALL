@@ -18,6 +18,10 @@ $(document).ready(function () {
 		var comment= $("textarea[name='field']").val ();
 		alert('Подождите, идет загрузка комментариев...')
 		$("<p>" + comment + "<hr>" + "</p>").appendTo("#comments");
+		localStorage.setItem('add','comment');
+		if(localStorage.getItem=='add'){
+			alert('ghw')
+		}
 
 		
 	})
@@ -25,7 +29,8 @@ $(document).ready(function () {
   
 		
 document.getElementById('comments').style.display='inline-block';
-//document.getElementById('comments').style.background='#fff';
+document.getElementById('comments').style.background='#fff';
+document.getElementById('comments').style.boxSizing='borderBox';
 
 
 
