@@ -1,29 +1,56 @@
+*{
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.menu {
+	text-align: center;
+}
+
+.slider {
+	text-align: center;
+	 
+} 
+
+
+.slider img {
+	margin-left: 50%;
+	margin-right: 50%;
+	text-align: center;
+}
+
 .hide{
 	display: none;
 }
 .show{
 	display: block;
+
 	
 
 }
 
 
+
+
+
+
 body{
 	height: 1000px;
 	background-image: url('http://vnews.agency/uploads/1/19.jpg');
-	 background-size:cover; 
-	text-align: center;
+	background-size:cover; 
 
+	
 }
 
-menu {
-	display: inline;
-		
 
-}
+
+
+
+
 
 #news-content{
 	display: none;
+	text-align: center;
 }
 
 li {
@@ -65,43 +92,21 @@ a{
 
 }
 
-#form  {
-	display: none;	
-}
-
-#done {
-	background: #ff0c00;
-	border: 2px solid #ff0c00;
-	border-radius: 4px;
-	padding: 5px 12px;
-	font-family: Lobster;
-	margin-bottom: 50px;
-}
-
- #comments {
- 	margin-bottom: 200px;
- 	font-size: 25px;
- 	font-family: monospace;
- 	word-break: break-all;
- 	
- 	
- 	
- 	
-
- 	
- }
- 
 
 
 
 
-
- #add-comment  {
- 	padding-bottom: 250px;
- }
-
- .link {
+ .col-lg-2 h2 {
  	font-family: lobster;
- 	font-size: 25px;
+ 	color: #210306;
+ 	font-size: 35px;
+ 	
 
+ 	
  }
+
+
+ .comment-field {
+	margin-right: 10px;
+ }
+

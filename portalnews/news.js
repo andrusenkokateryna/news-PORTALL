@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded',function(){
    let xhr = new XMLHttpRequest();
-   xhr.open('GET', 'https://newsapi.org/v1/articles?source=bbc-sport&sortBy=top&apiKey=2fefbe9cb8fb462d8686448ee1ab588a', false);
+   xhr.open('GET', 'https://newsapi.org/v1/articles?source=bbc-sport&sortBy=top&apiKey=fcbb57fc9e534034b904298c108e9586', false);
     xhr.send();
     if (xhr.status != 200) {
   // обработать ошибку
