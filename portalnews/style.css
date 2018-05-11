@@ -183,6 +183,13 @@ a{
 
   }
 
+  .agree {
+  	color: #fff;
+  	background:rgb(0,100,250);
+  	border: none;
+  	cursor: pointer;
+  }
+
 
 
 @keyframes modal {
