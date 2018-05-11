@@ -106,7 +106,13 @@ a{
  }
 
 
- .comment-field {
-	margin-right: 10px;
+ #comment-field {
+	word-wrap:break-word;
+	height: auto;
+ }
+
+ label {
+ 	color:  #210306;
+ 	font-size: 20px;		
  }
 

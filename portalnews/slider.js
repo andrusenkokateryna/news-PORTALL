@@ -1,7 +1,7 @@
 
-var images=['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo54wHJkuYDIs_dNFXLjsfPPn8WKI6SIHL4Z1ja-54yEVFnGlnOQ',
-'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUAqZNQm35OR0UwAx-iuW5J6RPeYLvM6o4DCtBB4ias_HBSVyog',
-'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyAWQHScDPh7wYxmf0LOku477u1FlkKmTDmEUwhN1rreX9GYUqQ'];
+var images=['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHUb7D8unSGbdXOoPThp9tgkhrRpE4Hkno5VhmR_ian79pLNLZ3Q',
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ36wilZmxylNDFR49OXjW5CYRXL9Sf002ijyW_0RNAvsG_6wIC',
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40kVG-F2At-e8GiGuN_avG6pweXS6hwlnOldtXCQOL44omGh5BQ'];
 //console.log(images)
 
 let i=0;
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(event){
 		var rbutt=document.getElementById('rightButton');
 		var lbutt=document.getElementById('leftButton')
 		var img=document.getElementById('image');
-		img.style.border='solid 5px #f30a26'
+		img.style.border='solid 5px #f30a26';
 		
 		rbutt.addEventListener('click', function(){
 			
