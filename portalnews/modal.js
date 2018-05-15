@@ -15,3 +15,4 @@ var btn=document.querySelector('.buttoncl'),
 			modal.style.display='none';
 		}
 	})
+

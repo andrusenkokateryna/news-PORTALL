@@ -9,6 +9,7 @@
 
 .slider {
 	text-align: center;
+	display: block;
 	 
 } 
 
@@ -17,6 +18,7 @@
 	margin-left: 50%;
 	margin-right: 50%;
 	text-align: center;
+	display: block;
 }
 
 .hide{
@@ -71,26 +73,24 @@ a{
 
 
  #rightButton {
- 	font-size: 25px;
+ 	font-size: 45px;
  	color: #6c0c11;
  }
 
  #rightButton:hover {
 	color: darkblue;
-	font-size: 35px;
-
-
+	
 }
 
 #leftButton {
-	font-size: 25px;
+	font-size: 45px;
 	color: #6c0c11;
 
 }
 
 #leftButton:hover {
 	color:orange;
-	font-size: 35px;
+	
 
 }
 

@@ -40,9 +40,20 @@ document.addEventListener('DOMContentLoaded',function(){
         content.appendChild(DIV);
         author.innerHTML+= news.articles[i].author +"</br>";
 
+        window.addEventListener('click',function(e){
+    if(e.target==content){
+        content.style.display='none';
+        }
+
+});
+
 
     }
     
 }
 
+
+
 });
+
+

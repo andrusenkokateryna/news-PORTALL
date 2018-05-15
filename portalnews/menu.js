@@ -16,7 +16,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
       })
      drop.addEventListener('click',function(event){
-     
       news.style.display='block';
-     })
      });
+
+      window.addEventListener('click',function(e){
+    if(e.target==news){
+        news.style.display='none';
+        }
+
+    
+      });
+
+    })
+     
